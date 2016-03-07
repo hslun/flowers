@@ -1,0 +1,36 @@
+[ 2015-06-01T14:11:33+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'goods_price' at row 1
+
+[ 2015-06-01T14:12:14+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2015-06-01T14:34:25+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Goods\showlist.html"  on line 54 "&lt;td&gt;&lt;img src=&quot;{$smarty.const.__ROOT__}{$smarty.strrchr($v.goods_big_img,'./')}&quot; height=&quot;60&quot; width=&quot;60&quot;&gt;&lt;/td&gt;" $smarty.strrchr is invalid
+
+[ 2015-06-01T14:36:50+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Goods\showlist.html"  on line 54 "&lt;td&gt;&lt;img src=&quot;{$smarty.const.__ROOT__}{$smarty.const.strstr($v.goods_big_img,'./')}&quot; height=&quot;60&quot; width=&quot;60&quot;&gt;&lt;/td&gt;"  - Unexpected "(", expected one of: "}" , " "
+
+[ 2015-06-01T14:36:53+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Goods\showlist.html"  on line 54 "&lt;td&gt;&lt;img src=&quot;{$smarty.const.__ROOT__}{$smarty.const.strstr($v.goods_big_img,'./')}&quot; height=&quot;60&quot; width=&quot;60&quot;&gt;&lt;/td&gt;"  - Unexpected "(", expected one of: "}" , " "
+
+[ 2015-06-01T18:47:42+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descLimit 0, 7' at line 1
+
+[ 2015-06-01T18:48:29+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descLimit 0, 7' at line 1
+
+[ 2015-06-01T18:48:31+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descLimit 0, 7' at line 1
+
+[ 2015-06-01T18:48:32+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descLimit 0, 7' at line 1
+
+[ 2015-06-01T18:49:30+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/showlist
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'descLimit 0, 7' at line 1
+
+[ 2015-06-01T19:55:09+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2015-06-01T20:02:28+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/left.html
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Index\left.html"  on line 49 "href=&quot;{$smarty.cont.__MODULE__}/{$vv.auth_c}/{$vv.auth_a}&quot;" $smarty.cont is invalid
+

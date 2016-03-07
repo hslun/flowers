@@ -1,0 +1,12 @@
+[ 2015-06-08T18:50:21+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2015-06-08T18:50:22+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+
+[ 2015-06-08T18:54:54+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2015-06-08T18:57:25+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/User/showlist.html
+

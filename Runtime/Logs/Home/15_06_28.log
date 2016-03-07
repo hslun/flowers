@@ -1,0 +1,6 @@
+[ 2015-06-28T00:51:29+08:00 ] 127.0.0.1 /index.php/Home/list/index/category_id/19
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Home/View\List\index.html"  on line 58 "{$v.&quot;catname&quot;}&amp;nbsp;›&amp;nbsp;"  - Unexpected """, expected one of: "{" , "$" , "identifier" , INTEGER
+
+[ 2015-06-28T20:16:13+08:00 ] 127.0.0.1 /index.php/Home/comment/insert
+ERR: 无法加载控制器:Comment
+

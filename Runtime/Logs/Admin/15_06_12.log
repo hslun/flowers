@@ -1,0 +1,9 @@
+[ 2015-06-12T09:39:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/category
+ERR: Think\Model:tree方法不存在！
+
+[ 2015-06-12T14:48:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/catrgory
+ERR: 非法操作:catrgory
+
+[ 2015-06-12T14:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/catrgory
+ERR: 非法操作:catrgory
+

@@ -1,0 +1,42 @@
+[ 2015-05-31T19:36:46+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/admin/admin/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0407.sw_admin' doesn't exist
+
+[ 2015-05-31T19:38:41+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/admin/admin/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0407.sw_admin' doesn't exist
+
+[ 2015-05-31T19:38:42+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/admin/admin/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0407.sw_admin' doesn't exist
+
+[ 2015-05-31T19:45:54+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/admin/admin/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0407.sw_admin' doesn't exist
+
+[ 2015-05-31T19:47:11+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/admin/admin/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop0407.sw_admin' doesn't exist
+
+[ 2015-05-31T19:48:35+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-05-31T19:49:13+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-05-31T19:49:18+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2015-05-31T19:49:21+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2015-05-31T19:49:24+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2015-05-31T19:49:52+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2015-05-31T19:50:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2015-05-31T20:00:03+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/right.html
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Index\right.html"  on line 24 "&lt;td&gt;当前时间：{$smarty.date(Y-m-d H:i:s)}&lt;/td&gt;&lt;/tr&gt;" $smarty.date is invalid
+
+[ 2015-05-31T20:00:13+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/right.html
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Index\right.html"  on line 24 "&lt;td&gt;当前时间：{$smarty.const.date(Y-m-d H:i:s)}&lt;/td&gt;&lt;/tr&gt;"  - Unexpected "(", expected one of: "}" , " "
+

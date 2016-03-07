@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>角色列表</title>
+
+        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <style>
+            .tr_color{
+                background-color: #9F88FF}
+        </style>
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：角色管理-》分配权限--[{$role_info.role_name}]</span>
+              
+            </span>
+        </div>
+        <div></div>
+     
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <form method="POST" action="{$smarty.const.__SELF__}" name="theFrom">
+                <input type="hidden" name="role_id" value="{$role_info.role_id}" />
+            <div class="list-div">
+                <table border="1" cellspacing='1' id="list-table">
+                    {foreach $auth_infoA as $k =>$v}
+                <tr>
+                <td width="18%" valign="top" class="first-cell" style="font-weight:bold">
+                <input name="auth_id[]" type="checkbox" value="{$v.auth_id}" 
+                {if in_array($v.auth_id,$auth_arr)}checked='checked'{/if}
+                />{$v.auth_name}</td>
+                <td>
+                {foreach $auth_infoB as $kk =>$vv}
+                {if $vv.auth_pid===$v.auth_id}
+                <div style="width:200px;float:left;">
+            <label for="goods_manage">
+                <input type="checkbox" name="auth_id[]" value="{$vv.auth_id}"  
+                  {if in_array($vv.auth_id,$auth_arr)}
+                  checked="checked"
+                  {/if}
+                />{$vv.auth_name}</label>
+            </div>
+            {/if}
+             {/foreach}
+             </td>
+         </tr>
+         {/foreach}
+
+             </table>
+             <input type="submit" value="修改权限"/>
+        </div>
+        </form>
+        </div>
+    </body>
+</html>

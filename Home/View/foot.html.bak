@@ -1,0 +1,11 @@
+<div id="templatemo_footer_wrapper">
+<div id="templatemo_footer">
+	
+	<div class="footer_right">
+	
+		<p><a href="{$smarty.const.__MODULE__}">主页</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/19" >情人节</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/32" >精致花篮</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/34" >玫瑰</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/35" >康乃馨</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/26" >家居鲜花</a> | <a href="{$smarty.const.__MODULE__}/list/index/category_id/28" >商务礼仪</a></p>
+        <p>Copyright (c) 2084 <a href="#">Company Name</a></p>
+	</div>
+    <div class="cleaner"></div>
+</div> <!-- END of footer -->
+</div> 

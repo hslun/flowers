@@ -1,0 +1,33 @@
+[ 2015-06-18T18:49:37+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T19:46:30+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T19:46:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T19:46:54+08:00 ] 127.0.0.1 /index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T19:46:59+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T19:52:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/Order/showlist.html
+
+[ 2015-06-18T19:55:02+08:00 ] 127.0.0.1 /index.php/Admin/User/comment
+ERR: 非法操作:comment
+
+[ 2015-06-18T19:59:55+08:00 ] 127.0.0.1 /index.php/Admin/Order/search
+ERR: 非法操作:search
+
+[ 2015-06-18T20:20:19+08:00 ] 127.0.0.1 /index.php/Admin/Order/update/user_id/219/order_id/1
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'order_id' in where clause is ambiguous
+
+[ 2015-06-18T20:21:26+08:00 ] 127.0.0.1 /index.php/Admin/Order/update/user_id/219/order_id/1
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'order_id' in where clause is ambiguous
+
+[ 2015-06-18T20:22:41+08:00 ] 127.0.0.1 /index.php/Admin/Order/update/user_id/219/order_id/1
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'order_id' in where clause is ambiguous
+

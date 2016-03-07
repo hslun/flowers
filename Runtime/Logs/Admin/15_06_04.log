@@ -1,0 +1,63 @@
+[ 2015-06-04T10:24:35+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/add
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'auth_name' doesn't have a default value
+
+[ 2015-06-04T10:27:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2015-06-04T10:27:18+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+
+[ 2015-06-04T18:54:28+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T18:54:30+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T18:54:31+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T18:54:32+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T18:54:33+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-04T18:54:34+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2015-06-04T18:54:37+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2015-06-04T19:03:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T19:03:31+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T19:03:32+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T19:03:34+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T19:03:38+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T19:03:39+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T19:03:40+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T19:04:02+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-04T19:04:04+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-04T19:56:40+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2015-06-04T20:16:58+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/update/role_id/100
+ERR: Think\Controller:execute方法不存在！
+

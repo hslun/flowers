@@ -1,0 +1,21 @@
+[ 2015-06-17T19:14:28+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-17T19:14:51+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-17T19:15:23+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-17T23:53:36+08:00 ] 127.0.0.1 /index.php/Home/Buy/Order/setOrder
+ERR: 非法操作:Order
+
+[ 2015-06-17T23:54:44+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-17T23:56:31+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-17T23:58:55+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1434556735' for column 'order_time' at row 1
+

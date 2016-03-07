@@ -1,0 +1,48 @@
+[ 2015-06-18T00:00:14+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1434556814' for column 'order_time' at row 1
+
+[ 2015-06-18T00:09:43+08:00 ] 127.0.0.1 /index.php/Order/order.html
+ERR: 非法操作:order
+
+[ 2015-06-18T00:11:01+08:00 ] 127.0.0.1 /index.php/Order/order.html
+ERR: 非法操作:order
+
+[ 2015-06-18T00:11:09+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Home/View/Order/setOrder.html
+
+[ 2015-06-18T00:31:09+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$user_id' in 'where clause'
+
+[ 2015-06-18T09:52:28+08:00 ] 127.0.0.1 /index.php/Home/Order/showOrder
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$user_id' in 'where clause'
+
+[ 2015-06-18T10:08:19+08:00 ] 127.0.0.1 /index.php/Home/Order/showOrder
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Home/View\Order\showOrder.html"  on line 59 "&lt;div&gt;收货人:{$v.goods_user} 电话:{$v.goods_user_tel} 下单时间:{datetime($v.order_time)}&lt;/div&gt;" unknown function "datetime"
+
+[ 2015-06-18T10:37:58+08:00 ] 127.0.0.1 /index.php/Home/Order/showOrder
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Home/View\Order\showOrder.html"  on line 88 "&lt;/tbody&gt;" unclosed {if} tag
+
+[ 2015-06-18T11:19:01+08:00 ] 127.0.0.1 /index.php/Home/Order/showOrder
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+
+[ 2015-06-18T11:45:36+08:00 ] 127.0.0.1 /index.php/Home/Order
+ERR: 非法操作:index
+
+[ 2015-06-18T11:45:50+08:00 ] 127.0.0.1 /index.php/Home/Order/
+ERR: 非法操作:index
+
+[ 2015-06-18T14:02:15+08:00 ] 127.0.0.1 /index.php/Home/Order/setOrder
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'total' at row 1
+
+[ 2015-06-18T14:09:17+08:00 ] 127.0.0.1 /index.php/Home/Order/showOrder
+ERR: 无法加载控制器:Order
+
+[ 2015-06-18T14:17:38+08:00 ] 127.0.0.1 /index.php/Home/Orders/showOrder
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Home/View\Orders\showOrder.html"  on line 45 "table tr{text-align: center;}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2015-06-18T19:41:00+08:00 ] 192.168.31.34 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-18T19:41:02+08:00 ] 192.168.31.34 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+

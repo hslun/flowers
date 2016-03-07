@@ -1,0 +1,177 @@
+[ 2015-06-13T20:06:53+08:00 ] 127.0.0.1 /index.php/Home/user/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+
+[ 2015-06-13T20:08:37+08:00 ] 127.0.0.1 /index.php/Home/user/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+
+[ 2015-06-13T20:09:14+08:00 ] 127.0.0.1 /index.php/User/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+
+[ 2015-06-13T20:25:47+08:00 ] 127.0.0.1 /index.php/User/index.php?p=home&c=login&a=check
+ERR: 非法操作:index.php
+
+[ 2015-06-13T20:27:12+08:00 ] 127.0.0.1 /index.php/User/login.html
+ERR: Think\Model:checkNamePwd方法不存在！
+
+[ 2015-06-13T23:04:14+08:00 ] 127.0.0.1 /index.php/Home/buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:05:06+08:00 ] 127.0.0.1 /index.php/Home/buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:05:08+08:00 ] 127.0.0.1 /index.php/Home/buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:05:24+08:00 ] 127.0.0.1 /index.php/Home/buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:05:30+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:07:01+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:07:56+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:07:57+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Think\Model:addCart方法不存在！
+
+[ 2015-06-13T23:08:29+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Think\Model:addToCart方法不存在！
+
+[ 2015-06-13T23:10:21+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:10:57+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:12:46+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart/goods_id/9
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:12:49+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart/goods_id/9
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:13:10+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart/goods_id/9
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:13:12+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart/goods_id/9
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:13:13+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart/goods_id/9
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:21:29+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:23:35+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:26:53+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:31:59+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:32:43+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:33:54+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+
+[ 2015-06-13T23:37:06+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:37:20+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:40:06+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:41:05+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:43:49+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:43:54+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:45:57+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:46:02+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:50:36+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:51:39+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: Unable to load template file '1\ljl\2015-05-28\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/templatemo_style.css
+ERR: 非法操作:templatemo_style.css
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/css/orman.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/css/nivo-slider.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/css/ddsmoothmenu.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/js/ddsmoothmenu.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:26+08:00 ] 127.0.0.1 /index.php/Buy/js/logging.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/css/ddsmoothmenu.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/css/orman.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/templatemo_style.css
+ERR: 非法操作:templatemo_style.css
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/js/ddsmoothmenu.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/css/nivo-slider.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:48+08:00 ] 127.0.0.1 /index.php/Buy/js/logging.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:50+08:00 ] 127.0.0.1 /index.php/Home/Buy/addCart
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = '219' AND `goods_id` = ''' at line 1
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/templatemo_style.css
+ERR: 非法操作:templatemo_style.css
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/js/ddsmoothmenu.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/css/orman.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/css/nivo-slider.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/css/ddsmoothmenu.css
+ERR: 非法操作:css
+
+[ 2015-06-13T23:59:52+08:00 ] 127.0.0.1 /index.php/Buy/js/logging.js
+ERR: 非法操作:js
+

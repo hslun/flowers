@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>角色列表</title>
+
+        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <style>
+            .tr_color{
+                background-color: #9F88FF}
+        </style>
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：角色管理-》角色列表</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/add">【添加角色】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+        <div class="div_search">
+         
+        </div>
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <table class="table_a" border="1" width="100%">
+                <tbody><tr style="font-weight: bold;">
+                        <th>序号</th>
+                        <th>角色名称</th>
+                        
+                        <th colspan="3" align="center">操作</th>
+                    </tr>
+                    {foreach $info as $k=>$v}
+                    <tr id="product1">
+                        <td>{$v.role_id}</td>
+                        <td>{$v.role_name}</td>
+                         <td><a href="{$smarty.const.__CONTROLLER__}/distribute/role_id/{$v.role_id}">分配权限</a></td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/update/role_id/{$v.role_id}">修改</a></td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/del/role_id/{$v.role_id}" onclick="javascript:return confirm('您确认要删除这条记录吗?')">删除</a></td>
+                    </tr>
+                    {/foreach}
+                    <tr>
+                        <td colspan="20" style="text-align: center;">
+                            {$pagelist}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

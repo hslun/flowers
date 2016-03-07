@@ -1,0 +1,12 @@
+[ 2015-06-14T17:45:09+08:00 ] 192.168.31.64 /index.php/admin/manager/login
+ERR: 无法加载控制器:Manager
+
+[ 2015-06-14T17:45:56+08:00 ] 192.168.31.64 /index.php/Admin/User/comment
+ERR: 非法操作:comment
+
+[ 2015-06-14T17:46:21+08:00 ] 192.168.31.64 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-14T17:46:24+08:00 ] 192.168.31.64 /index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+

@@ -1,0 +1,45 @@
+[ 2015-06-12T19:00:23+08:00 ] 127.0.0.1 /index.php/Home
+ERR: Syntax Error in template "E:\www\PHP1\ljl\2015-05-28\shop\Home\View\left.html"  on line 25 "{/if}" unknown tag "ifclose"
+
+[ 2015-06-12T19:00:35+08:00 ] 127.0.0.1 /index.php/Home
+ERR: Syntax Error in template "E:\www\PHP1\ljl\2015-05-28\shop\Home\View\left.html"  on line 25 "{/if}" unknown tag "ifclose"
+
+[ 2015-06-12T19:00:36+08:00 ] 127.0.0.1 /index.php/Home
+ERR: Syntax Error in template "E:\www\PHP1\ljl\2015-05-28\shop\Home\View\left.html"  on line 25 "{/if}" unknown tag "ifclose"
+
+[ 2015-06-12T19:57:59+08:00 ] 127.0.0.1 /index.php/Home/list/category_id/19
+ERR: 非法操作:category_id
+
+[ 2015-06-12T19:58:58+08:00 ] 127.0.0.1 /index.php/Home/list/category_id/19
+ERR: 非法操作:category_id
+
+[ 2015-06-12T19:59:30+08:00 ] 127.0.0.1 /index.php/Home/list/category_id/19
+ERR: 非法操作:category_id
+
+[ 2015-06-12T20:09:50+08:00 ] 127.0.0.1 /index.php/Home/contact.html
+ERR: 无法加载控制器:Contact
+
+[ 2015-06-12T20:09:56+08:00 ] 127.0.0.1 /index.php/Home/shoppingcart.html
+ERR: 无法加载控制器:Shoppingcart
+
+[ 2015-06-12T20:49:00+08:00 ] 127.0.0.1 /index.php//Home/Public/js/logging.js
+ERR: 无法加载控制器:Public
+
+[ 2015-06-12T20:49:21+08:00 ] 127.0.0.1 /index.php//Home/Public/js/logging.js
+ERR: 无法加载控制器:Public
+
+[ 2015-06-12T20:49:25+08:00 ] 127.0.0.1 /index.php/about.html
+ERR: 无法加载控制器:About
+
+[ 2015-06-12T21:03:13+08:00 ] 127.0.0.1 /index.php/Home
+ERR: Syntax Error in template "E:\www\PHP1\ljl\2015-05-28\shop\Home\View\head.html"  on line 7 "&lt;?php }else{;?&gt;"  - Unexpected ";"
+
+[ 2015-06-12T21:34:24+08:00 ] 127.0.0.1 /index.php/Home/user/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+
+[ 2015-06-12T21:34:58+08:00 ] 127.0.0.1 /index.php/Home/user/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+
+[ 2015-06-12T21:35:41+08:00 ] 127.0.0.1 /index.php/Home/user/index.php?p=home&c=login&a=captcha
+ERR: 非法操作:index.php
+

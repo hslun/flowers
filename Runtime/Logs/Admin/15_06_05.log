@@ -1,0 +1,36 @@
+[ 2015-06-05T12:37:56+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-05T12:38:31+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-05T13:17:30+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/cateadd
+ERR: 非法操作:cateadd
+
+[ 2015-06-05T13:17:45+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/cateadd
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/Goods/cateadd.html
+
+[ 2015-06-05T19:31:46+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/catadd
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/Goods/catadd.html
+
+[ 2015-06-05T20:42:28+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-05T20:48:14+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-05T20:48:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2015-06-05T20:48:45+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+
+[ 2015-06-05T20:48:46+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2015-06-05T20:48:53+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-05T20:48:54+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+

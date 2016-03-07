@@ -1,0 +1,15 @@
+[ 2015-06-25T20:02:56+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-25T20:03:04+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-25T20:03:08+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-25T20:03:44+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+
+[ 2015-06-25T20:04:03+08:00 ] 127.0.0.1 /index.php/Home/user/checkNm/name/
+ERR: 参数错误或者未定义:name
+

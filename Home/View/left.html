@@ -1,0 +1,46 @@
+<div id="sidebar" class="left">
+    	<div class="sidebar_box"><span class="bottom"></span>
+            <h3>鲜花导购</h3>   
+            <div class="content"> 
+                <ul class="sidebar_list">
+                        <!-- 单个菜单项 -->
+                       {foreach $cats as  $v}
+                       
+                        <li >
+                            <div class="yjfl"><a>按{$v.cat_name}选花</a></div>
+                            <div class="ejfl">
+                                {foreach $v.child as $k=>  $v1}
+                                <span><a  href="{$smarty.const.__MODULE__}/list/index/category_id/{$v1.cat_id}">{$v1.cat_name}</a></span>&nbsp;&nbsp;|                                                         
+                               {/foreach}     
+                            </div>
+                        </li>
+                    
+                        <!-- 单个菜单项 End -->
+                        {/foreach}         
+                       
+                    </ul>
+                <!-- <ul class="sidebar_list">
+                	{foreach $cats as  $v}
+                    <li><a href="{$smarty.const.__MODULE__}/List/index/category_id/{$v.cat_id}">{$v.cat_name}</a></li>
+                   
+                    {/foreach}
+                </ul> -->
+            </div>
+        </div>
+        <div class="sidebar_box"><span class="bottom"></span>
+            <h3>本周推荐花卉</h3> 
+            {foreach $goods_info1 as $k=> $v}
+        {if $k<1}  
+            <div class="content special"> 
+                <img src="{$smarty.const.__ROOT__}{ltrim($v.goods_small_img,'.')}" width="220" alt="Flowers" />
+                <a href="{$smarty.const.__MODULE__}/goods/index/goods_id/{$v.goods_id}">{$v.goods_name}</a>
+                <p>
+                	Price:
+                    <span class="price normal_price">{$v.goods_price}</span>&nbsp;&nbsp;
+                    <span class="price special_price">{$v.shop_price}</span>
+                </p>
+            </div>
+            {/if}         
+       {/foreach}
+        </div>
+    </div>

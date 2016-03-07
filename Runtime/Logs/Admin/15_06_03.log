@@ -1,0 +1,96 @@
+[ 2015-06-03T00:00:37+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-03T00:13:09+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-03T00:26:01+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/distribute/role_id/100
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Role\distribute.html"  on line 30 "&lt;input name=&quot;chkGroup&quot; type=&quot;checkbox&quot; value=&quot;{v.auth_id}&quot;   class=&quot;checkbox&quot; /&gt;{v.auth_name}&lt;/td&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2015-06-03T00:45:10+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T00:47:14+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T00:48:35+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T00:53:21+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T09:42:11+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/distribute/role_id/101
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Role\distribute.html"  on line 40 "{if(in_array($vv.auth_id,$auth_arr))checked=&quot;checked&quot;}{/if}" unknown function "if"
+
+[ 2015-06-03T09:42:43+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/distribute/role_id/101
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Role\distribute.html"  on line 40 "{if in_array($vv.auth_id,$auth_arr) checked=&quot;checked&quot;}{/if}" unexpected "checked" attribute
+
+[ 2015-06-03T09:42:52+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/distribute/role_id/101
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Role\distribute.html"  on line 40 "{if(in_array($vv.auth_id,$auth_arr))}checked=&quot;checked&quot;{/if}" unknown function "if"
+
+[ 2015-06-03T09:47:04+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T09:47:32+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Role/distribute/role_id/101
+ERR: Syntax Error in template "E:/www/PHP1/ljl/2015-05-28/shop/Admin/View\Role\distribute.html"  on line 22 "{$smarty.const.in_array($v.auth_id,$auth_arr)}"  - Unexpected "(", expected one of: "}" , " "
+
+[ 2015-06-03T14:52:48+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Manager/showlist
+ERR: 无法加载控制器:Manager
+
+[ 2015-06-03T14:52:59+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T14:53:07+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Manager/showlist
+ERR: 无法加载控制器:Manager
+
+[ 2015-06-03T14:55:04+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Manager/showlist
+ERR: 无法加载控制器:Manager
+
+[ 2015-06-03T14:55:06+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Manager/showlist
+ERR: 无法加载控制器:Manager
+
+[ 2015-06-03T14:55:16+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Admin/showlist
+ERR: 非法操作:showlist
+
+[ 2015-06-03T14:58:20+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Admin/showlist
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/Admin/showlist.html
+
+[ 2015-06-03T15:16:53+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T19:12:00+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T19:14:19+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T19:14:21+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T19:14:33+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/showlist
+ERR: 无法加载控制器:Auth
+
+[ 2015-06-03T19:34:25+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Index/left.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+
+[ 2015-06-03T19:36:21+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2015-06-03T19:36:22+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2015-06-03T19:52:26+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/tianjia
+ERR: 非法操作:tianjia
+
+[ 2015-06-03T19:53:49+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-03T19:53:51+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2015-06-03T19:53:52+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2015-06-03T20:14:09+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Admin/Auth/add
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Admin/View/Auth/add.html
+

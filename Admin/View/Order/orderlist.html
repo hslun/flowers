@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>订单列表</title>
+
+        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <style>
+            .tr_color{
+                background-color: #9F88FF}
+        </style>
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：订单管理-》订单列表</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/showlist">【返回订单详情】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+        
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <table class="table_a" border="1" width="100%">
+                <tbody><tr style="font-weight: bold;">
+                       
+                        <td>收货人姓名</td>
+                        <td>收货人电话</td>
+                        <td>省份</td>
+                        <td>城市</td>
+                        <td>地区</td>
+                        <td>详细地址</td>
+                        <td>会员ID</td>
+                        <td>订单提交时间</td>
+                        <td>订单总价</td>
+                        
+                       
+                    </tr>
+                    {foreach $order_dz as $k=>$v}
+                    <tr id="product1">
+                       
+                        <td>{$v.goods_user}</td>
+                        <td>{$v.goods_user_tel}</td>
+                        <td>{$v.province}</td>
+                        <td>{$v.city}</td>
+                        <td>{$v.piecearea}</td>
+                        <td>{$v.order_addr}</td>
+                        <td>{$v.user_id}</td>
+                        <td>{date('Y-m-d H:i',$v.order_time)}</td>
+                        <td>{$v.total}</td>
+                       
+                    </tr>
+                    {/foreach}
+                    <tr>
+                        <td colspan="20" style="text-align: center;">
+                            {$pagelist}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+             <table width="100%" border="1" cellpadding="5" cellspacing="0">
+                   
+
+                        <tr>
+                            
+                        <th width="20%" align="left">商品图片</th> 
+                        <th width="20%" align="left">商品名字</th> 
+                        <th width="20%" align="center">购买数量</th> 
+                        <th width="20%" align="right">市场价</th> 
+                        <th width="20%" align="right">优惠价</th> 
+                           
+                        </tr>
+                   
+                     {foreach $orders as $k1=>$v1}
+                     {if $v1.order_id==$v.order_id}
+                        <tr>
+                           
+                            <td><a href=""><img src="{ltrim($v1.goods_small_img,'.')}"  width="30"/></a></td>
+                            <td>{$v1.goods_name}</td>
+                            <td>{$v1.goods_num}</td>
+                            <td>{$v1.goods_price}</td>
+                            <td>{$v1.shop_price}</td>
+                          
+                        </tr>
+                        {/if}
+                    {/foreach} 
+            </table>
+        </div>
+    </body>
+</html>

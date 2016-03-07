@@ -1,0 +1,21 @@
+[ 2015-06-05T18:53:39+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/home/list/index
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Home/View/List/index.html
+
+[ 2015-06-05T19:15:49+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/home/products.html
+ERR: 无法加载控制器:Products
+
+[ 2015-06-05T19:19:19+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/Index/List
+ERR: 非法操作:List
+
+[ 2015-06-05T19:55:40+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/productdetail.html
+ERR: 无法加载控制器:Productdetail
+
+[ 2015-06-05T20:02:08+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/shoppingcart.html
+ERR: 无法加载控制器:Shoppingcart
+
+[ 2015-06-05T20:12:57+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/productdetail.html
+ERR: 无法加载控制器:Productdetail
+
+[ 2015-06-05T20:43:24+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/productdetail.html
+ERR: 无法加载控制器:Productdetail
+

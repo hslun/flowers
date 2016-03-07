@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>花店</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="{$smarty.const.CSS_URL}templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="{$smarty.const.CSS_URL}orman.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{$smarty.const.CSS_URL}nivo-slider.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}ddsmoothmenu.css" />
+
+<script type="text/javascript" src="{$smarty.const.JS_URL}jquery.min.js"></script>
+<script type="text/javascript" src="{$smarty.const.JS_URL}ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+
+</script>
+<script type="text/javascript" src="{$smarty.const.JS_URL}jquery-1-4-2.min.js"></script> 
+<link rel="stylesheet" href="{$smarty.const.CSS_URL}slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="{$smarty.const.JS_URL}slimbox2.js"></script> 
+
+</head>
+
+<body>
+
+<div id="templatemo_wrapper_sp">
+{include file="../head1.html"} <!-- END of header wrapper -->
+<div id="templatemo_main_wrapper">
+<div id="templatemo_main">
+	 {include file="../left.html"}
+    
+    <div id="content" class="right">
+        <h2>{$goods_info.goods_name}</h2>
+        <div class="content_half left">
+            <a  rel="lightbox" href="{$smarty.const.__ROOT__}{ltrim($goods_info.goods_big_img,'.')}"><img src="{$smarty.const.__ROOT__}{ltrim($goods_info.goods_small_img,'.')}" alt="" /></a>
+        </div>
+            <div class="content_half right">
+                <form action="{$smarty.const.__MODULE__}/Buy/addCart" method="POST">
+                    <input type="hidden" name="goods_id" value="{$goods_info.goods_id}" />
+                <table>
+                    <tr>
+                        <td width="130">市场价格:</td>
+                        <td width="84">${$goods_info.goods_price}</td>
+                    </tr>
+                    <tr>
+                        <td>本店价格:</td>
+                        <td><strong>${$goods_info.shop_price}</strong></td>
+                    </tr>
+                    <tr><td>数量</td><td><input type="text" name="goods_num" value="1" size="6" maxlength="2" /></td></tr>
+                </table>
+                <div class="cleaner h20"></div>
+                <input type="submit" value="加入购物车" class="button" />
+                </form>
+            </div>
+            <div class="cleaner h40"></div>
+            
+            <h4>商品描述</h4>
+            <p>{$goods_info.goods_introduce}</p>
+            <div class="cleaner h40"></div>
+             <h4>商品评论</h4>
+             {if !empty($comment_info)}
+             {foreach $comment_info as $comment}
+            <p><b>{$comment.username}</b> 于 {$comment.insert_time} 说：<br>{$comment.content}</p>
+             {/foreach}
+             {else}
+             <p>暂无评论</p>
+             {/if}
+            <div class="cleaner h40"></div>
+            <h4>发布评论</h4>
+             <form action='{$smarty.const.__MODULE__}/comment/insert' method='post'>
+             <input type='hidden' name='goods_id' value='{$goods_info.goods_id}'>
+            <p><textarea name='content' style='width:500px; height:100px;'></textarea></p>
+            <p><input type='submit' value='发布评论'></p>
+            </form>
+            <div class="cleaner h40"></div>
+        <div class="blank_box">
+            <a href="#"><img src="{$smarty.const.IMG_URL}free_shipping.jpg" alt="Free Shipping" /></a>
+        </div>    
+    </div>
+    <div class="cleaner"></div>
+</div> <!-- END of main -->
+</div> <!-- END of main wrapper -->
+
+{include file="../foot.html"}<!-- END of footer wrapper -->
+</div>
+
+</body>
+<script type='text/javascript' src='{$smarty.const.JS_URL}logging.js'></script>
+</html>

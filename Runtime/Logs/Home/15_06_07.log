@@ -1,0 +1,48 @@
+[ 2015-06-07T00:07:46+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/goods/index/goods_id/1
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Home/View/Goods/index.html
+
+[ 2015-06-07T19:41:51+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%  order by goods_id desc Limit 0, 8' at line 1
+
+[ 2015-06-07T19:42:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%  order by goods_id desc Limit 0, 8' at line 1
+
+[ 2015-06-07T19:44:28+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%  order by goods_id desc Limit 0, 8' at line 1
+
+[ 2015-06-07T19:44:29+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%  order by goods_id desc Limit 0, 8' at line 1
+
+[ 2015-06-07T19:45:14+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:45:15+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:45:53+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:45:54+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:45:55+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/10
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:46:07+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List/index/category_id/12
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+[ 2015-06-07T19:46:12+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home
+ERR: Syntax Error in template "E:\www\PHP1\ljl\2015-05-28\shop\Home\View\head.html"  on line 22 "&lt;form action=&quot;{$smarty.const.__MODULE__}/goods/search/goods_name/{$}&quot; method=&quot;get&quot;&gt;"  - Unexpected "}", expected one of: "{" , "identifier"
+
+[ 2015-06-07T19:49:46+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/goods/search/?keyword=%E8%8F%8A&Search=
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%  order by goods_id desc Limit 0, 8' at line 1
+
+[ 2015-06-07T19:55:01+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/goods/search/?keyword=%E8%8F%8A&Search=
+ERR: 非法操作:search
+
+[ 2015-06-07T19:59:53+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/goods/search/?keyword=%E8%8F%8A&Search=
+ERR: 模板不存在:E:/www/PHP1/ljl/2015-05-28/shop/Home/View/Goods/search.html
+
+[ 2015-06-07T20:03:17+08:00 ] 127.0.0.1 /2015-05-28/shop/index.php/Home/List
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
